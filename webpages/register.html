@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+    <title>注册</title>
+    <link href="../css/reset.css" rel="stylesheet" type="text/css">
+    <link href="../css/login.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<section class="register">
+    <h2>Sign up for Fisher</h2>
+    <div>
+        <form action="../php/register.php" method="post">
+        <p>
+            <span class="label5">Username:</span><br>
+            <input type="text" name="username" id="username" required pattern="^[a-zA-Z0-9]([a-zA-Z0-9-_.])+$" placeholder="不支持特殊符号"><br>
+        </p>
+        <p>
+            <span class="label3">E-mail:</span><br>
+            <input type="text" name="email" id="email" required pattern="^[a-zA-Z0-9]([a-zA-Z0-9-_])+@([a-zA-Z0-9-_])+\.([a-zA-Z0-9-_.]+)" placeholder="请输入正确的邮箱地址">
+        </p>
+        <p>
+            <span class="label2">Password:</span><br>
+            <input type="password" name="password"  id="password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" placeholder="至少八位且包含数字字母">
+        </p>
+        <p>
+            <span class="label4">Confirm Your Password:</span><br>
+            <input type="password" name="confirm" id="confirm" required placeholder="与密码一致">
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Sign up" id="submit">
+        </p>
+        </form>
+
+    </div>
+
+</section>
+<footer>
+    Copyright © 2019-2021 Web fundamental. All Rights Reserved. 备案号：19302010084
+</footer>
+</body>
+</html>

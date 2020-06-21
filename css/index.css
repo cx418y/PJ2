@@ -1,0 +1,127 @@
+body{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    wide: 100%;
+    height: 100%;
+    wide:80%;
+}
+section{
+    margin-top: 3%;
+    padding-top: 0;
+    background-color: white;
+    border: solid 1px;
+    border-color: #c4e3f3;
+    border-radius: 8px;
+}
+header{
+    margin-top: 0;
+    height: 50px;
+    font-family: "Bodoni MT";
+    background-color: #F0F8FF;
+    border-color: #c4e3f3;
+    line-height: 50px;
+}
+h3{
+    padding-left: 2vw;
+    font-family: SimSun-ExtB;
+}
+.navbar-brand{
+    padding: 6px 6px;
+}
+.index_footer{
+    background-color: #222222;
+}
+.row{
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.copyright{
+    color: white;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+
+.col-xs-3{
+    margin: 20px;
+}
+.refresh{
+    position:fixed;
+    bottom: 50px;
+    right: 10px;
+}
+.back-to-top{
+    position:fixed;
+    bottom: 0px;
+    right: 10px;
+}
+.website_banner img{
+    margin-top: 2vh;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.col-md-3 img{
+    width: 40px;
+}
+
+.home_photo_overview {
+    display: inline-block;
+    margin: 3%;
+    background-color: #E7E7E7;
+    border-radius: 5px;
+    width: 25%;
+    height: 25vw;
+    line-height: 1.5em;
+    overflow: hidden;
+}
+.home_photo{
+    margin:auto;
+    padding: 5% 10% 2% 10%;
+    width: 80%;
+    height: 80%;
+    overflow:hidden;
+    box-shadow: #ebccd1;
+}
+.home_photo img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.home_photo_overview h3{
+    margin-left: 2vw;
+    font-size: 1vw;
+}
+.home_photo_overview small{
+    color: #888888;
+    font-size: 1vw;
+    margin-left: 2vw;
+    float: bottom;
+}
+.home_photo_overview div:last-child{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.my_photo_intro p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 5vh;
+    font-size: 2vh;
+}
+
+.home_photo_overview small{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #888888;
+    font-size: 1vw;
+    margin-left: 2vw;
+    float: bottom;
+}

@@ -1,0 +1,102 @@
+body{
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 100px;
+    line-height: 2em;
+    background-image: url("../images/背景.jpg");
+}
+div{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+h2{
+    margin: 20px;
+    text-align: center;
+    font-size: large;
+}
+footer{
+    text-align: center;
+    font-size: smaller;
+}
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+a:hover{
+    text-decoration: underline;
+}
+section.index{
+    text-align: center;
+    font-family: "Bell MT";
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    background-color: #E7E7E7;
+}
+section.register{
+    text-align: center;
+    font-family: "Bell MT";
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    background-color: #E7E7E7;
+}
+input{
+    width: 200px;
+    height:20px;
+    background-color: #ffffff;
+    border: #56707f solid 1px;
+    border-radius: 5px;
+    color: #000000;
+}
+input[type="submit"]{
+    margin: 10px;
+    width: 100px;
+    height:30px;
+    background-color: antiquewhite;
+    border: #56707f solid 1px;
+    border-radius: 5px;
+    color: #000000;
+}
+input:hover{
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+input[type="submit"]:hover{
+    background-color: bisque;
+}
+span.label1{
+    margin-right: 60px;
+}
+span.label2{
+    margin-right: 120px;
+}
+span.label3{
+    margin-right: 140px;
+}
+span.label4{
+    margin-right: 20px;
+}
+span.label5{
+    margin-right: 115px;
+}
+button{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: "Calisto MT";
+    font-size: large;
+    width: 35%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+}
+button:hover{
+    background-color: bisque;
+}
+footer{
+    float: bottom;
+    margin-top: 8vh;
+    font-size: 2vh;
+}

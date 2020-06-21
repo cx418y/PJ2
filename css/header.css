@@ -1,0 +1,111 @@
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+nav{
+    font-family: Chiller;
+    font-weight: bold;
+    float: top;
+    background-color: black;
+    font-size: larger;
+    color: white;
+    height: 7vh;
+}
+nav div.nav-left{
+    color: white;
+    float:left;
+    font-size: 1.4vw;
+}
+nav table td{
+    text-align: center;
+    font-weight: bold;
+    min-width: 6vw;
+    margin: 0;
+    padding: 0;
+    line-height: 7vh;
+    height: 7vh;
+}
+nav table td:hover{
+    background-color: #222222;
+    cursor: pointer;
+}
+
+
+nav img.logo{
+    float: left;
+    vertical-align: middle;
+    background-color: azure;
+    height: 7vh;
+    width: auto;
+    margin-left:1vw;
+}
+nav.nav-right{
+    float: right;
+}
+nav.l{
+    display: none;
+}
+nav.nav-right:hover{
+
+}
+
+.account {
+    font-family: Chiller;
+    font-size: larger;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    height: 7vh;
+    width: 6vw;
+    text-align: center;
+    font-size:1.4vw;
+    border: none;
+    cursor: pointer;
+}
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+    font-family: Chiller;
+    font-size: 1.4vw;
+    font-weight: bold;
+    background-color: black;
+    position: relative;
+    display: inline-block;
+    float: right;
+    height: 7vh;
+    margin-right: 1vw;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /*box-shadow: black;*/
+}
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    min-width:6vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+}
+
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {
+    background-color:  #222222}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+.dropdown:hover .account {
+    background-color: #222222;
+}
+.current_webpage{
+    background-color: #222222;
+    text-decoration: underline;
+}
